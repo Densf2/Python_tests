@@ -21,7 +21,9 @@ header.robot  - contain test - click all links located on header of page
 
 footer.robot - contain test - click all links located in footer and click link to facebook page
 
-A_resource.robot - contain all variables
+resource.robot - contain all variables
+
+login.robot - test login form on website
 
 ### Running Tests
 
