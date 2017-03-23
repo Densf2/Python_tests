@@ -8,7 +8,7 @@
 
 ## Repo Location
 
-https://github.com
+https://github.com/QA
 
 ## Purpose
 
