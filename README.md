@@ -25,6 +25,8 @@ resource.robot - contain all variables
 
 login.robot - test login form on website
 
+cart.robot - testing add products to shopping cart and delete from cart
+
 ### Running Tests
 
 For runnung test load files - und run.
