@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation   Simple test for ui_testing header menu
+Documentation   Simple test for testing cart and add products
 Resource   _resource.robot
 Test Setup   Prepare Test Environment
 Test Teardown   Close All Browsers
