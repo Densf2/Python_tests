@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation   Simple test for testing cart and add products
+Documentation   Simple test for ui_testing header menu
 Resource   _resource.robot
 Test Setup   Prepare Test Environment
 Test Teardown   Close All Browsers
@@ -19,7 +19,7 @@ Add goods to cart
     Wait Until Element Is Visible   css=.content
     Mouse Down   id=articleIndex3  #hover product link
     Sleep   2s
-    Click Element   xpath=//*[@id="articleIndex3"]/div/div[4]/div[2]/div[1]/div   #add product to cart
+    Click Element   xpath=//*[@id="articleIndex3"]/div/div[5]/div[2]/div[1]   #add product to cart
     Wait Until Element Is Visible   id=cartForm   #show shopping cart
     Sleep   2s
     Click Element   xpath=//*[@id="positions"]/div[3]/div[1]    #delete product 2
@@ -35,11 +35,11 @@ Add goods to cart
     Sleep   2s
     Input Text   id=lastName    Pavlyuk
     Sleep   2s
-    Select Radio Button   deliveryMethod    courier
+    Select Radio Button   deliveryMethod    novaPoshtaPostpaid
     Sleep   2s
-    Input Text   id=addressCity     Khmelnitskiy city
+    Input Text   id=novaPoshtaDepartmentCity     Khmelnitskiy city
     Sleep   2s
-    Input Text   id=address    1010 Zarichanska
+    Input Text   id=novaPoshtaDepartment    10
     Sleep   2s
     Click Link   link=Главная
     Sleep   2s
