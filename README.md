@@ -27,6 +27,8 @@ login.robot - test login form on website
 
 cart.robot - testing add products to shopping cart and delete from cart
 
+empty_cart.robot - testing cart on website as logged and unlogged user
+
 ### Running Tests
 
 For runnung test load files - und run.
