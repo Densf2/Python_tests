@@ -29,6 +29,8 @@ cart.robot - testing add products to shopping cart and delete from cart
 
 empty_cart.robot - testing cart on website as logged and unlogged user
 
+invalid_checkout.robot - testing cart with invalid information
+
 ### Running Tests
 
 For runnung test load files - und run.
