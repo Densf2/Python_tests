@@ -31,6 +31,8 @@ empty_cart.robot - testing cart on website as logged and unlogged user
 
 invalid_checkout.robot - testing cart with invalid information
 
+login_and_search.robot - testing search engine as logged user
+
 ### Running Tests
 
 For runnung test load files - und run.
