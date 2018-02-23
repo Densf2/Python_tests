@@ -35,7 +35,7 @@ login_and_search.robot - testing search engine as logged user
 
 ### Running Tests
 
-For runnung test load files - und run.
+For runnung test load files - and run.
 
 Test ruuning on Chrome v.48
 
